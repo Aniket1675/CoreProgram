@@ -6,11 +6,7 @@ public class SumofthreeInteger
 {
     static Scanner s = new Scanner(System.in);
 
-    /**
-     * function to check sum of triplets is 0
-     *
-     * @param n the no of elements to check for for creation of array
-     */
+
     static void sum0count(int n)
     {
         int[] arr = new int[n];
