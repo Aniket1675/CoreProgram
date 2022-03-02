@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class WindChill
 {
-    static void windChill(double f, double ws)
+    static void windChill(double fahrenheit, double windspeed)
     {
-        double w = 35.74 + 0.62158 * f + (0.4275 * f - 35.75) * Math.pow(ws, 0.16);
-        System.out.println(w);
+        double w = 35.74 + 0.62158 * fahrenheit + (0.4275 * fahrenheit - 35.75) * Math.pow(windspeed, 0.16);
+        System.out.println("Effective temperature"+w);
     }
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

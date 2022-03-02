@@ -2,7 +2,7 @@ package com.bridgelabz.coreprogram;
 
 import java.util.Scanner;
 
-public class Main
+public class FlipCoin
 {
 
     public static void main(String[] args)
